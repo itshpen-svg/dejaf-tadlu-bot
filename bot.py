@@ -46,7 +46,7 @@ OWNER_CHAT_ID = os.getenv("OWNER_CHAT_ID")  # can be blank until you run /myid o
 VAT_RATE = 0.15
 SHOP_NAME = "Dejaf Tadlu (ደጃፍ - ታደሉ)"
 # Update this once you know your final Netlify (or custom domain) link.
-WEBSITE_URL = os.getenv("WEBSITE_URL", "https://vocal-gelato-0382e0.netlify.app")
+WEBSITE_URL = os.getenv("WEBSITE_URL", "https://dejaf-tadlu-onlineshopping.netlify.app")
 
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO
